@@ -1,34 +1,34 @@
 [
-    {
-        "nome": "Rick Sanchez",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-    },
-    {
-        "nome": "Morty Smith",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
-    },
-    {
-        "nome": "Summer Smith",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
-    },
-    {
-        "nome": "Beth Smith",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
-    },
-    {
-        "nome": "Jerry Smith",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
-    },
-    {
-        "nome": "Abadango Cluster Princess",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
-    },
-    {
-        "nome": "Abradolf Lincler",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
-    },
-    {
-        "nome": "Adjudicator Rick",
-        "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
-    }
+  {
+    "nome": "Rick Sanchez",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+  },
+  {
+    "nome": "Morty Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+  },
+  {
+    "nome": "Summer Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+  },
+  {
+    "nome": "Beth Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+  },
+  {
+    "nome": "Jerry Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+  },
+  {
+    "nome": "Abadango Cluster Princess",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+  },
+  {
+    "nome": "Abradolf Lincler",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+  },
+  {
+    "nome": "Adjudicator Rick",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+  }
 ]
