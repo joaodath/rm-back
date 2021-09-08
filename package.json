@@ -1,0 +1,22 @@
+{
+  "name": "backend-rickandmorty",
+  "version": "1.0.0",
+  "description": "Restful API serving as backend for a ricky and morty web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --trace-warnings index.js"
+  },
+  "author": "@joaodath",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
