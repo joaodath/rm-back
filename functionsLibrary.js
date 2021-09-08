@@ -35,7 +35,7 @@ function checkEmptyInput(input, res) {
 function checkId(id, res) {
   const { ObjectId } = require("mongodb");
   if (!ObjectId.isValid(id)) {
-    res.status(422).json({ error: "ID is invalid" });
+    res.status(400).json({ error: "ID is invalid" });
     return;
   }
 }
@@ -61,43 +61,3 @@ module.exports = {
   doesItExist,
   testFunction,
 };
-
-// async function doesItPatch(id, res) {
-//     //Checks if the object with given id exists and returns the object if found or else returns and error
-//     const { charactersRM, ObjectId } = require('./database/mongodbConnection');
-
-//     const gameReturn = await charactersRM.findOne({ _id: ObjectId(id) });
-
-//     if (!gameReturn) {
-//         res.status(404).json({"response": "game not found!"});
-//         return;
-//     }
-
-// }
-
-/*
-async function doesItExist(id, res, patch) {
-    //Checks if the object with given id exists and returns the object if found or else returns and error
-    const dotenv = require('dotenv').config();
-    const { client, ObjectId } = require('./database/mongodbdriver');
-    
-    const gameReturn = await client.db(process.env.DB_NAME).collection(process.env.COLLECTION).findOne({ _id: ObjectId(id) });
-
-    if (!patch) {
-        let createResponse = [
-            {'status': 200}, 
-            {'response': gameReturn}];
-
-        if (gameReturn) {
-            createResponse
-        } else {
-            createResponse.status(404);
-            createResponse.response("game not found!");
-    } else {} if (!gameReturn) {
-            res.status(404).json({"response": "game not found!"});
-            return;
-        }
-    }
-    
-}
-*/

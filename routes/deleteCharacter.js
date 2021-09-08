@@ -22,12 +22,10 @@ router.delete("/characters/:id", async (req, res) => {
   await dbclose();
 
   deleteResult.deletedCount === 1
-    ? res.json({ success: "character deleted!" })
-    : res
-        .status(500)
-        .json({
-          error: "could not delete the character now. try again later.",
-        });
+    ? res.status(204)
+    : res.status(500).json({
+        error: "could not delete the character now. try again later.",
+      });
 });
 
 module.exports = router;

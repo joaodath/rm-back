@@ -21,7 +21,7 @@ router.patch("/characters/:id", async (req, res) => {
   //ends the code if document does not exist
   let isADocument = await doesItExist(id);
   if (!isADocument) {
-    res.status(404).json({ response: "game not found!" });
+    res.status(404).json({ response: "character not found!" });
     return;
   }
 

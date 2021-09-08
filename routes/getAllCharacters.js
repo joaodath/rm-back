@@ -18,7 +18,9 @@ router.get("/", async (req, res) => {
 
   charactersArr
     ? res.send(charactersArr)
-    : res.json({ response: "it works but the database has no data." });
+    : res
+        .status(404)
+        .json({ response: "it works but the database has no data." });
 });
 
 module.exports = router;
